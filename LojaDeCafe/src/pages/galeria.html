@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Star - Galeria</title>
+  <link rel="stylesheet" href="/src/public/styles/styleGaleria.css">
+  <!-- Importação de fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="top-bar">
+      FREE SHIPPING ON ALL ORDERS OVER R$100 • RESPONSIBLY SOURCED COFFEE STRAIGHT TO YOUR DOOR
+    </div>
+    <div class="nav-bar">
+      <h2>COFFEE STAR</h2>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="../../index.html">Início</a></li>
+          <li><a href="/src/pages/receita.html">Receitas</a></li>
+          <li><a href="/src/pages/beneficios.html">Benefícios</a></li>
+          <li><a href="#">Galeria</a></li>
+          <li><a href="/src/pages/contato.html">Contato</a></li>
+        </ul>
+                <div id="translator-container"></div>
+<script src="/src/public/scripts/translate-loader.js"></script>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Hero Slider-->
+    <section class="hero-slider">
+      <div class="slider-container">
+        <!-- Slide 1: Café Tradicional 1 -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 9</div>
+          <img src="/src/public/imgs/cafe1.jpeg" alt="Café Tradicional 1">
+        </div>
+        <!-- Slide 2: Café Tradicional 2 -->
+        <div class="mySlides">
+          <div class="numbertext">2 / 9</div>
+          <img src="/src/public/imgs/cafe2.jpeg" alt="Café Tradicional 2">
+        </div>
+        <!-- Slide 3: Café Tradicional 3 -->
+        <div class="mySlides">
+          <div class="numbertext">3 / 9</div>
+          <img src="/src/public/imgs/cafe3.jpeg" alt="Café Tradicional 3">
+        </div>
+        <!-- Slide 4: Café Superior 1 -->
+        <div class="mySlides">
+          <div class="numbertext">4 / 9</div>
+          <img src="/src/public/imgs/cafe4.jpeg" alt="Café Superior 1">
+        </div>
+        <!-- Slide 5: Café Superior 2 -->
+        <div class="mySlides">
+          <div class="numbertext">5 / 9</div>
+          <img src="/src/public/imgs/cafe5.jpeg" alt="Café Superior 2">
+        </div>
+        <!-- Slide 6: Café Superior 3 -->
+        <div class="mySlides">
+          <div class="numbertext">6 / 9</div>
+          <img src="/src/public/imgs/cafe6.jpeg" alt="Café Superior 3">
+        </div>
+        <!-- Slide 7: Café Gourmet 1 -->
+        <div class="mySlides">
+          <div class="numbertext">7 / 9</div>
+          <img src="/src/public/imgs/cafe7.jpeg" alt="Café Gourmet 1">
+        </div>
+        <!-- Slide 8: Café Gourmet 2 -->
+        <div class="mySlides">
+          <div class="numbertext">8 / 9</div>
+          <img src="/src/public/imgs/cafe8.jpeg" alt="Café Gourmet 2">
+        </div>
+        <!-- Slide 9: Café Gourmet 3 -->
+        <div class="mySlides">
+          <div class="numbertext">9 / 9</div>
+          <img src="/src/public/imgs/cafe9.jpeg" alt="Café Gourmet 3">
+        </div>
+
+        <!-- Botões de navegação -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Legenda -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Miniaturas -->
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="/src/public/imgs/cafe1.jpeg" onclick="currentSlide(1)" alt="Café Tradicional 1">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="/src/public/imgs/cafe2.jpeg" onclick="currentSlide(2)" alt="Café Tradicional 2">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="/src/public/imgs/cafe3.jpeg" onclick="currentSlide(3)" alt="Café Tradicional 3">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="/src/public/imgs/cafe4.jpeg" onclick="currentSlide(4)" alt="Café Superior 1">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="/src/public/imgs/cafe5.jpeg" onclick="currentSlide(5)" alt="Café Superior 2">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="/src/public/imgs/cafe6.jpeg" onclick="currentSlide(6)" alt="Café Superior 3">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="/src/public/imgs/cafe7.jpeg" onclick="currentSlide(7)" alt="Café Gourmet 1">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="/src/public/imgs/cafe8.jpeg" onclick="currentSlide(8)" alt="Café Gourmet 2">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="/src/public/imgs/cafe9.jpeg" onclick="currentSlide(9)" alt="Café Gourmet 3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mini Gallery: Links para Categorias -->
+    <section class="mini-gallery-categories">
+      <h2>Selecione a Categoria desejada</h3>
+      <div class="gallery-grid">
+        <!-- Link para Café Tradicional -->
+        <div class="gallery-item">
+          <a href="#tradicional">
+            <img src="/src/public/imgs/xicara-de-cafe.png" alt="Ícone Café Tradicional">
+            <h3>Café Tradicional</h3>
+            <p>Explosão de aromas marcantes para cafés encorpados.</p>
+          </a>
+        </div>
+        <!-- Link para Café Gourmet -->
+        <div class="gallery-item">
+          <a href="#gourmet">
+            <img src="/src/public/imgs/cappucine-coffe.png" alt="Ícone Café Gourmet">
+            <h3>Café Gourmet</h3>
+            <p>Fragrâncias delicadas que revelam nuances de elegância.</p>
+          </a>
+        </div>
+        <!-- Link para Café Superior -->
+        <div class="gallery-item">
+          <a href="#superior">
+            <img src="/src/public/imgs/coffe (1).png" alt="Ícone Café Superior">
+            <h3>Café Superior</h3>
+            <p>Textura leve e notas equilibradas para uma experiência acolhedora.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grids de Produtos por Categoria -->
+    <!-- Seção: Café Tradicional -->
+    <section id="tradicional" class="category-section">
+      <h2 class="category-title">Café Tradicional</h2>
+      <div class="product-grid">
+        <!-- Produto 1 -->
+        <div class="product-card">
+          <img src="/src/public/imgs/cafe1.jpeg" alt="Café Tradicional 1" class="product-image">
+          <div class="product-info">
+            <h3 class="product-title">Café Tradicional 1</h3>
+            <p class="product-description">Sabor clássico e suave para o dia a dia.</p>
+            <p class="product-price">R$12,00/kg</p>
+            <button class="product-button" onclick="window.location.href='detalhes.html'">Adicionar</button>
+          </div>
+        </div>
+        <!-- Produto 2 -->
+        <div class="product-card">
+          <img src="/src/public/imgs/cafe2.jpeg" alt="Café Tradicional 2" class="product-image">
+          <div class="product-info">
+            <h3 class="product-title">Café Tradicional 2</h3>
+            <p class="product-description">Equilíbrio perfeito entre aroma e corpo.</p>
+            <p class="product-price">R$14,00/kg</p>
+            <button class="product-button" onclick="window.location.href='detalhes.html'">Adicionar</button>
+          </div>
+        </div>
+        <!-- Produto 3 -->
+        <div class="product-card">
+          <img src="/src/public/imgs/cafe3.jpeg" alt="Café Tradicional 3" class="product-image">
+          <div class="product-info">
+            <h3 class="product-title">Café Tradicional 3</h3>
+            <p class="product-description">Sabor autêntico, ideal para o ritual matinal.</p>
+            <p class="product-price">R$10,00/kg</p>
+            <button class="product-button" onclick="window.location.href='detalhes.html'">Adicionar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Café Superior -->
+    <section id="superior" class="category-section">
+      <h2 class="category-title">Café Superior</h2>
+      <div class="product-grid">
+        <!-- Produto 1 -->
+        <div class="product-card">
+          <img src="/src/public/imgs/cafe4.jpeg" alt="Café Superior 1" class="product-image">
+          <div class="product-info">
+            <h3 class="product-title">Café Superior 1</h3>
+            <p class="product-description">Mais intenso e com aroma aprimorado.</p>
+            <p class="product-price">R$18,00/kg</p>
+            <button class="product-button" onclick="window.location.href='detalhes.html'">Adicionar</button>
+          </div>
+        </div>
+        <!-- Produto 2 -->
+        <div class="product-card">
+          <img src="/src/public/imgs/cafe5.jpeg" alt="Café Superior 2" class="product-image">
+          <div class="product-info">
+            <h3 class="product-title">Café Superior 2</h3>
+            <p class="product-description">Selecionado para um sabor mais refinado.</p>
+            <p class="product-price">R$20,00/kg</p>
+            <button class="product-button" onclick="window.location.href='detalhes.html'">Adicionar</button>
+          </div>
+        </div>
+        <!-- Produto 3 -->
+        <div class="product-card">
+          <img src="/src/public/imgs/cafe6.jpeg" alt="Café Superior 3" class="product-image">
+          <div class="product-info">
+            <h3 class="product-title">Café Superior 3</h3>
+            <p class="product-description">Harmonia de sabores para um café sofisticado.</p>
+            <p class="product-price">R$22,00/kg</p>
+            <button class="product-button" onclick="window.location.href='detalhes.html'">Adicionar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Café Gourmet -->
+    <section id="gourmet" class="category-section">
+      <h2 class="category-title">Café Gourmet</h2>
+      <div class="product-grid">
+        <!-- Produto 1 -->
+        <div class="product-card">
+          <img src="/src/public/imgs/cafe7.jpeg" alt="Café Gourmet 1" class="product-image">
+          <div class="product-info">
+            <h3 class="product-title">Café Gourmet 1</h3>
+            <p class="product-description">Exclusivo, com notas complexas e intensas.</p>
+            <p class="product-price">R$30,00/kg</p>
+            <button class="product-button" onclick="window.location.href='detalhes.html'">Adicionar</button>
+          </div>
+        </div>
+        <!-- Produto 2 -->
+        <div class="product-card">
+          <img src="/src/public/imgs/cafe8.jpeg" alt="Café Gourmet 2" class="product-image">
+          <div class="product-info">
+            <h3 class="product-title">Café Gourmet 2</h3>
+            <p class="product-description">Selecionado com rigor para um sabor inigualável.</p>
+            <p class="product-price">R$35,00/kg</p>
+            <button class="product-button" onclick="window.location.href='detalhes.html'">Adicionar</button>
+          </div>
+        </div>
+        <!-- Produto 3 -->
+        <div class="product-card">
+          <img src="/src/public/imgs/cafe9.jpeg" alt="Café Gourmet 3" class="product-image">
+          <div class="product-info">
+            <h3 class="product-title">Café Gourmet 3</h3>
+            <p class="product-description">Excelência em cada grão, para os paladares mais exigentes.</p>
+            <p class="product-price">R$40,00/kg</p>
+            <button class="product-button" onclick="window.location.href='detalhes.html'">Adicionar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Teste direto sem JS -->
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      { pageLanguage: 'pt', includedLanguages: 'pt,en' },
+      'google_translate_element'
+    );
+  }
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Coffee Star - Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Script do Slider -->
+  <script src="/src/public/scripts/galeria.js"></script>
+</body>
+</html>
